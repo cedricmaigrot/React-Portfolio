@@ -7,13 +7,10 @@ export default class About extends Component {
             <div className="row">
 
                <div className="three columns">
-
                   <img className="profile-pic" src="images/profilepic.jpg" alt="" />
-
                </div>
 
                <div className="nine columns main-col">
-
                   <h2>About Me</h2>
                   <p>
                      J'ai débuté mes études à Montpellier en réalisant un <a href="https://iutdepinfo.iutmontp.univ-montp2.fr/vitrine/" target="_blank">DUT</a>,

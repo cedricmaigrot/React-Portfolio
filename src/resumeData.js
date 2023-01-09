@@ -31,49 +31,108 @@ let resumeData = {
   "website": "http://www.cedricmaigrot.fr/",
   "education": [
     {
-      "UniversityName": "The LNM Insitute of Information Technology",
-      "specialization": "Some specialization",
-      "MonthOfPassing": "Aug",
-      "YearOfPassing": "2020",
-      "Achievements": "Some Achievements"
+      "UniversityName": "Thèse de doctorat",
+      "specialization": "Spécialité informatique",
+      "MonthOfPassing": "Avril",
+      "YearOfPassing": "2019",
+      "Achievements": "Félicitations du jury",
+      "AchievementsIcon": "fa-solid fa-trophy"
     },
     {
-      "UniversityName": "Some University",
-      "specialization": "Some specialization",
-      "MonthOfPassing": "Jan",
-      "YearOfPassing": "2018",
-      "Achievements": "Some Achievements"
+      "UniversityName": "Master informatique",
+      "specialization": "Données, Connaissances et Langage naturel",
+      "MonthOfPassing": "Juin",
+      "YearOfPassing": "2015",
+      "Achievements": "Major de promotion",
+      "AchievementsIcon": "fa-solid fa-trophy"
+    },
+    {
+      "UniversityName": "Licence informatique",
+      "specialization": " Cursus général",
+      "MonthOfPassing": "Juin",
+      "YearOfPassing": "2013"
+    },
+    {
+      "UniversityName": "DUT informatique",
+      "specialization": " Cursus général",
+      "MonthOfPassing": "Juin",
+      "YearOfPassing": "2012"
+    },
+    {
+      "UniversityName": "BAC technologique",
+      "specialization": "Génie Electronique",
+      "MonthOfPassing": "Juin",
+      "YearOfPassing": "2010",
+      "Achievements": "Major d'établissement",
+      "AchievementsIcon": "fa-solid fa-trophy"
     }
   ],
   "work": [
     {
-      "CompanyName": "Some Company",
-      "specialization": "Some specialization",
-      "MonthOfLeaving": "Jan",
-      "YearOfLeaving": "2018",
+      "CompanyName": "OSE Engineering",
+      "specialization": "Ingénieur R&D",
+      "MonthOfStarting": "Mai",
+      "YearOfStarting": "2021",
+      "MonthOfLeaving": "Toujours en poste",
+      "YearOfLeaving": "",
       "Achievements": "Some Achievements"
     },
     {
-      "CompanyName": "Some Company",
-      "specialization": "Some specialization",
-      "MonthOfLeaving": "Jan",
-      "YearOfLeaving": "2018",
-      "Achievements": "Some Achievements"
+      "CompanyName": "AMOS",
+      "specialization": "Intervenant en informatique",
+      "MonthOfStarting": "Septembre",
+      "YearOfStarting": "2020",
+      "MonthOfLeaving": "Décembre",
+      "YearOfLeaving": "2020",
+      "Achievements": ""
+    },
+    {
+      "CompanyName": "INRIA",
+      "specialization": "Ingénieur de recherche",
+      "MonthOfStarting": "Mai",
+      "YearOfStarting": "2019",
+      "MonthOfLeaving": "Décembre",
+      "YearOfLeaving": "2019",
+      "Achievements": ""
+    },
+    {
+      "CompanyName": "IRISA - DGA",
+      "specialization": "Doctorant",
+      "MonthOfStarting": "Octobre",
+      "YearOfStarting": "2015",
+      "MonthOfLeaving": "Avril",
+      "YearOfLeaving": "2019",
+      "Achievements": ""
     }
   ],
-  "skillsDescription": "Your skills here",
+  "skillsDescriptionLanguages": "Langages de programmation : ",
+  "skillsLanguages": [
+    {
+      "skillname": "Python",
+      "slug": "python"
+    },
+    {
+      "skillname": "Reactjs",
+      "slug": "reactjs"
+    }
+  ],
+  "skillsDescription": "Compétences : ",
   "skills": [
     {
-      "skillname": "HTML5"
+      "skillname": "Apprentissage automatique",
+      "slug": "machinelearning"
     },
     {
-      "skillname": "CSS"
+      "skillname": "Traitement Automatique des Langues",
+      "slug": "taln"
     },
     {
-      "skillname": "Photoshop"
+      "skillname": "Visualisation des données",
+      "slug": "visualisation"
     },
     {
-      "skillname": "Reactjs"
+      "skillname": "Vision par ordinateur",
+      "slug": "vision"
     }
   ],
   "portfolio": [
