@@ -366,7 +366,6 @@ ul#nav li.current a {
 }
 
 .bars .skills {
-   margin-top: 36px;
    list-style: none;
 }
 
@@ -403,103 +402,6 @@ ul#nav li.current a {
 }
 
 
-.python {
-   width: 80%;
-   -moz-animation: html5 2s ease;
-   -webkit-animation: html5 2s ease;
-}
-
-.reactjs {
-   width: 50%;
-   -moz-animation: jquery 2s ease;
-   -webkit-animation: jquery 2s ease;
-}
-
-.taln {
-   width: 75%;
-   -moz-animation: html5 2s ease;
-   -webkit-animation: html5 2s ease;
-}
-
-.machinelearning {
-   width: 80%;
-   -moz-animation: html5 2s ease;
-   -webkit-animation: html5 2s ease;
-}
-
-.vision {
-   width: 60%;
-   -moz-animation: html5 2s ease;
-   -webkit-animation: html5 2s ease;
-}
-
-.visualisation {
-   width: 65%;
-   -moz-animation: html5 2s ease;
-   -webkit-animation: html5 2s ease;
-}
-
-/* 
-@-moz-keyframes python {
-   0% {
-      width: 0px;
-   }
-
-   100% {
-      width: 80%;
-   }
-}
-
-@-moz-keyframes reactjs {
-   0% {
-      width: 0px;
-   }
-
-   100% {
-      width: 50%;
-   }
-}
-
-@-moz-keyframes taln {
-   0% {
-      width: 0px;
-   }
-
-   100% {
-      width: 75%;
-   }
-}
-
-@-webkit-keyframes python {
-   0% {
-      width: 0px;
-   }
-
-   100% {
-      width: 80%;
-   }
-}
-
-@-webkit-keyframes reactjs {
-   0% {
-      width: 0px;
-   }
-
-   100% {
-      width: 50%;
-   }
-}
-
-@-webkit-keyframes taln {
-   0% {
-      width: 0px;
-   }
-
-   100% {
-      width: 75%;
-   }
-} */
-
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
@@ -528,6 +430,10 @@ ul#nav li.current a {
    background: #fff;
    overflow: hidden;
    position: relative;
+   width: 100%;
+   height: 200px;
+   background: #00CCCC;
+   border: 4px solid white;
 
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
@@ -558,7 +464,7 @@ ul#nav li.current a {
    -o-transition: opacity 0.3s ease-in-out;
    transition: opacity 0.3s ease-in-out;
 
-   background: url(../images/overlay-bg.png) repeat;
+   /* background: url("../images/overlay-bg.png") repeat; */
 }
 
 .portfolio-item .item-wrap .link-icon {

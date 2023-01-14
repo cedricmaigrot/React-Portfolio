@@ -1,0 +1,146 @@
+.skills,
+hr {
+   clear: both;
+   margin: 0;
+}
+
+.skill+p {
+   margin: 10px 0;
+   clear: both
+}
+
+.skills .badge {
+   padding: 2px 10px;
+   display: table;
+   margin: 5px !important;
+   border: 2px solid black;
+   /* background-color: #EEE; */
+   border-radius: 10px;
+   border-color: #333;
+   background: #DDD3;
+   white-space: nowrap;
+   float: left;
+}
+
+.skills .badge img {
+   position: relative;
+   top: 4px;
+   left: 0;
+   width: 20px;
+}
+
+.skills .badge span {
+   position: relative;
+   top: 0;
+   left: 0;
+   margin-left: 5px;
+   color: #333;
+}
+
+.badge.react {
+   border-color: #61DBFB;
+   background: #61DBFB11;
+}
+
+.badge.react span {
+   color: #61DBFB;
+}
+
+.badge.python {
+   border-color: #3776ab;
+   background: #FFD36311;
+}
+
+.badge.python span {
+   color: #3776ab;
+}
+
+.badge.html5 {
+   border-color: #F9522F;
+   background: #F9522F33;
+}
+
+.badge.html5 span {
+   color: #F9522F;
+}
+
+.badge.css3 {
+   border-color: #2465F1;
+   background: #2465F133;
+}
+
+.badge.css3 span {
+   color: #2465F1;
+}
+
+.badge.java {
+   border-color: #DB380E;
+   background: #73A1FB33;
+}
+
+.badge.java span {
+   color: #DB380E;
+}
+
+.badge.shell {
+   border-color: #494949;
+   background: #49494933;
+}
+
+.badge.shell span {
+   color: #494949;
+}
+
+.badge.php {
+   border-color: #777BB3;
+   background: #777BB333;
+}
+
+.badge.php span {
+   color: #25AAE1;
+}
+
+.badge.mysql {
+   border-color: #25AAE1;
+   background: #F7941E33;
+}
+
+.badge.mongodb span {
+   color: #777BB3;
+}
+
+.badge.mongodb {
+   border-color: #46A037;
+   background: #46A03733;
+}
+
+.badge.mongodb span {
+   color: #46A037;
+}
+
+.badge.git {
+   border-color: #F05033;
+   background: #F0503333;
+}
+
+.badge.git span {
+   color: #F05033;
+}
+
+.badge.tableau {
+   border-color: #1F457E;
+   background: #1F457E33;
+}
+
+.badge.tableau span {
+   color: #1F457E;
+}
+
+.badge.agile {
+   border-color: #17A1DC;
+   background: #17A1DC33;
+}
+
+.badge.agile span {
+   color: #17A1DC;
+}
